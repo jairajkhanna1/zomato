@@ -1,0 +1,246 @@
+/* Common Elements  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hr1{
+    border-width: 2px;
+    border-color: brown;
+    border-style: solid;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.servicesh1{
+    font-family: 'Lobster', cursive;
+    color: brown;
+    text-align: center;
+    font-size: 45px;
+
+}
+
+/* Navigation Bar CSS starts*/
+
+#navbar{
+    display: flex;
+    background-color: brown;
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    position: sticky;
+    top: 0;
+}
+
+/* Navigation Bar  */
+
+#logo{
+    width: 15%;
+    margin-right: 30px;
+}
+
+#logoimg{
+    height: 55px;
+    margin: 12px 40px;
+    border-radius: 22px;
+}
+
+/* navigation links */
+
+#navlinks{
+    width: 70%;
+    /* padding-left: 80px; */
+    /* text-align: center; */
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+.linkitem{
+
+}
+
+.linka{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+.linka:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.currentpage{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+/* Social Media Links */
+
+#socialmedia{
+    margin-left: 60px;
+}
+
+#socialmedia img{
+    border-radius: 10px;   
+}
+
+#socialmedia img:hover{
+    transform: scale(1.5);
+    box-shadow: 0px 0px 35px 0px rgba(255,255,255,1);
+    transition: 1s;
+}
+
+/* Navigation Bar CSS ends */
+
+/* Home Content CSS starts here */
+
+
+
+/* Home Content CSS ends here */
+#homecontent{
+    height: 900px;
+    background-image: url(pizza.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.maintitle{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 150px;
+    text-align: center;
+}
+
+.subtitle1{
+    font-family: 'Lobster', cursive; 
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtitle2{
+    font-family: 'Lobster', cursive; 
+    color: beige;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Facilities CSS starts */
+
+#facilities{
+    display: flex;
+    justify-content:space-around;
+    height: 400px;
+    /* align-items: center; */
+    background-color: burlywood;
+}
+
+.facilityclass{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#facilities img{
+    height: 170px;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+.facilitypara1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.facilitypara2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.facilitypara3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+/* Facilities CSS ends */
+
+
+/* Footer CSS */
+
+#footer{
+    height: 100px;
+    display: flex;
+    background-color: brown;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    line-height: 60px;
+    justify-content: center;
+}
+
+/* Serives CSS starts here  */
+
+#servicescontent{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.servicesbox{
+    width: 700px;
+    height: 470px;
+    border: 2px solid brown;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;v
+}
+
+.servicebox img{
+    border-radius: 25px;
+}
+
+.servicesbox h5{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+/* Serives CSS ends here  */
+
+/* Contact Us CSS starts here  */
+
+#contactuscontent{
+    height: 500px;
+    background-image: url(orange.png);
+    background-position: center;
+}
+
+#contactuscontent h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    line-height: 460px;
+}
+
+/* Contact Us CSS ends here  */
